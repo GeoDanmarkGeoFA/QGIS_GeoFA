@@ -41,21 +41,21 @@ about=See english version below.
 	
 	This plugin is developed by <a href="https://geopartner.dk/" target="_blank">Geopartner</a> and <a href="https://www.geodanmark.dk/home/vejledninger/geofa/" targer="_blank">GeoDanmark</a>.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/GeoDanmarkGeoFA/QGIS_GeoFA/issues
+repository=https://github.com/GeoDanmarkGeoFA/QGIS_GeoFA
 # End of mandatory metadata
 
 # Recommended items:
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=2024-01-19: version 0.1, GeoFA
 
 # Tags are comma separated with spaces allowed
-tags=Danish, dansk, Danmark, Denmark, WMS, WFS, WCS, Open Data, GeoFA, GeoDanmark, Geopartner
+tags=Danish, dansk, Danmark, Denmark, WFS, Open Data, GeoFA, GeoDanmark, Geopartner
 
 homepage=https://www.geodanmark.dk/home/vejledninger/geofa/
-category=Plugins
+category=GeoFA
 icon=icon.png
 # experimental flag
 experimental=False
@@ -67,9 +67,6 @@ deprecated=False
 # (or upgraded) can be specified.
 # Check the documentation for more information.
 # plugin_dependencies=
-
-Category of the plugin: Raster, Vector, Database or Web
-# category=
 
 # If the plugin can run on QGIS Server.
 server=False
