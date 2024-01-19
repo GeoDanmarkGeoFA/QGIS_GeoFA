@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/geofa" >
+    <file>icon_about.png</file>
+    </qresource>
+</RCC>
