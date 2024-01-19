@@ -76,8 +76,7 @@ The main logic of the plugin resides in the `import_geofa.py` module. This modul
 ## Future Improvements
 In the future, the plugin can be enhanced with the following features:
 
-1. Styling of the friluftsliv using GeoFA symbols.
-2. Handling the layers using QLR files saved in the GeoFA database, thus avoiding hardcoded WFS layers.
+1. Handling the layers using QLR files saved in the GeoFA database, thus avoiding hardcoded WFS layers.
 
 ## Contributing
 
