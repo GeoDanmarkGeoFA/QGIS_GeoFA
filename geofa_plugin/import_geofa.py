@@ -264,6 +264,11 @@ class import_geofa:
                 # Add svg path, so it can find symbols used in the styles
                 # https://gis.stackexchange.com/questions/281698/relative-path-to-the-plugin-folder-for-svg-file-in-qgis3-sld-file
                 svg_paths = QgsSettings().value('svg/searchPathsForSVG', [])
+
+                # make sure the svg_paths is a list
+                if isinstance(svg_paths, str):
+                    svg_paths = [svg_paths]
+
                 if plugin_path + "/geofa_symboler" not in svg_paths:
                     QgsSettings().setValue('svg/searchPathsForSVG', svg_paths + [plugin_path + "/geofa_symboler"])
 
