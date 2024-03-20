@@ -726,7 +726,7 @@
     <alias name="" index="16" field="bruger_id"/>
     <alias name="" index="17" field="kommunekode"/>
     <alias name="" index="18" field="cvr_navn"/>
-    <alias name="Ansvarlig myndighed" index="19" field="cvr_kode"/>
+    <alias name="Ansvarlig myndighed (cvr_kode)" index="19" field="cvr_kode"/>
     <alias name="" index="20" field="oprettet"/>
     <alias name="" index="21" field="systid_til"/>
     <alias name="" index="22" field="systid_fra"/>
@@ -746,7 +746,7 @@
     <default applyOnUpdate="0" expression="" field="noegle"/>
     <default applyOnUpdate="0" expression="" field="offentlig"/>
     <default applyOnUpdate="0" expression="" field="off_kode"/>
-    <default applyOnUpdate="0" expression="NULL" field="statuskode"/>
+    <default applyOnUpdate="0" expression="3" field="statuskode"/>
     <default applyOnUpdate="0" expression="" field="temanavn"/>
     <default applyOnUpdate="0" expression="" field="oprindelse"/>
     <default applyOnUpdate="0" expression="" field="oprindkode"/>

@@ -5478,7 +5478,7 @@
     <alias index="4" name="" field="systid_fra"/>
     <alias index="5" name="" field="systid_til"/>
     <alias index="6" name="" field="oprettet"/>
-    <alias index="7" name="Ansvarlig myndighed" field="cvr_kode"/>
+    <alias index="7" name="Ansvarlig myndighed (cvr_kode)" field="cvr_kode"/>
     <alias index="8" name="" field="cvr_navn"/>
     <alias index="9" name="" field="kommunekode"/>
     <alias index="10" name="" field="bruger_id"/>
@@ -5570,7 +5570,7 @@
     <default applyOnUpdate="0" expression="@geofa_bruger_id" field="bruger_id"/>
     <default applyOnUpdate="0" expression="" field="oprindkode"/>
     <default applyOnUpdate="0" expression="" field="oprindelse"/>
-    <default applyOnUpdate="0" expression="NULL" field="statuskode"/>
+    <default applyOnUpdate="0" expression="3" field="statuskode"/>
     <default applyOnUpdate="0" expression="" field="status"/>
     <default applyOnUpdate="0" expression="" field="off_kode"/>
     <default applyOnUpdate="0" expression="" field="offentlig"/>

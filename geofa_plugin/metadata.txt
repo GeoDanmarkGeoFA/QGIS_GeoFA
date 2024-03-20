@@ -9,7 +9,7 @@ qgisMaximumVersion=3.99
 description=Gratis og let adgang til GeoFA (Geografiske Fagdata i GeoDanmark) i QGIS. <br>
 
 	Free and easy access to GeoFA (Geographical Professional Data in GeoDanmark) in QGIS.
-version=0.1
+version=0.2
 author=GeoFA
 email=support@geopartner.dk
 
@@ -49,7 +49,8 @@ repository=https://github.com/GeoDanmarkGeoFA/QGIS_GeoFA
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-changelog=2024-01-19: version 0.1, GeoFA
+changelog=2024-03-20: version 0.2, update symbols and attribute forms
+    2024-01-19: version 0.1, GeoFA
 
 # Tags are comma separated with spaces allowed
 tags=Danish, dansk, Danmark, Denmark, WFS, Open Data, GeoFA, GeoDanmark, Geopartner

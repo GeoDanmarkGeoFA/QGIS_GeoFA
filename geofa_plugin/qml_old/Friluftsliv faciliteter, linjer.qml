@@ -1586,7 +1586,7 @@
     <alias name="" index="81" field="link"/>
     <alias name="" index="82" field="temakode"/>
     <alias name="" index="83" field="temanavn"/>
-    <alias name="Ansvarlig myndighed" index="84" field="cvr_kode"/>
+    <alias name="Ansvarlig myndighed (cvr_kode)" index="84" field="cvr_kode"/>
     <alias name="" index="85" field="cvr_navn"/>
     <alias name="" index="86" field="kommunekode"/>
     <alias name="" index="87" field="bruger_id"/>
@@ -1693,7 +1693,7 @@
     <default applyOnUpdate="0" expression="@geofa_bruger_id" field="bruger_id"/>
     <default applyOnUpdate="0" expression="" field="oprindkode"/>
     <default applyOnUpdate="0" expression="" field="oprindelse"/>
-    <default applyOnUpdate="0" expression="NULL" field="statuskode"/>
+    <default applyOnUpdate="0" expression="3" field="statuskode"/>
     <default applyOnUpdate="0" expression="" field="status"/>
     <default applyOnUpdate="0" expression="" field="off_kode"/>
     <default applyOnUpdate="0" expression="" field="offentlig"/>
