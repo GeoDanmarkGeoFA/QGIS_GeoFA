@@ -1507,7 +1507,7 @@
     <default field="cvr_kode" expression="" applyOnUpdate="0"/>
     <default field="cvr_navn" expression="" applyOnUpdate="0"/>
     <default field="kommunekode" expression="" applyOnUpdate="0"/>
-    <default field="bruger_id" expression="@geofa_bruger_id" applyOnUpdate="0"/>
+    <default field="bruger_id" expression="@geofa_bruger_id" applyOnUpdate="1"/>
     <default field="oprindkode" expression="" applyOnUpdate="0"/>
     <default field="oprindelse" expression="" applyOnUpdate="0"/>
     <default field="statuskode" expression="3" applyOnUpdate="0"/>

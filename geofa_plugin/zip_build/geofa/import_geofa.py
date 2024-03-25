@@ -24,6 +24,8 @@ class import_geofa:
             },
             "Vej og trafik": {
                 "Ladefaciliteter": "Ladefaciliteter"
+                #"Cykelknudepunkter": "Cykelknudepunkter",
+                #"Cykelknudepunktsstrækninger": "Cykelknudepunktsstrækninger"
             },
         }
         return menu_items
@@ -53,6 +55,10 @@ class import_geofa:
 
         elif submenu == menu_items["Vej og trafik"]["Ladefaciliteter"]:
             import_geofa.create_geofa_layer(self, submenu, "fkg:t_5607_ladefacilitet", plugin_path, update=update)
+        #elif submenu == menu_items["Vej og trafik"]["Cykelknudepunkter"]:
+            #import_geofa.create_geofa_layer(self, submenu, "fkg:t_5608_cykelknudepunkter", plugin_path, update=update)
+        #elif submenu == menu_items["Vej og trafik"]["Cykelknudepunktsstrækninger"]:
+            #import_geofa.create_geofa_layer(self, submenu, "fkg:t_5609_cykelknudepunktsstraekninger", plugin_path, update=update)
 
     def d_tables(self, update=False):
 

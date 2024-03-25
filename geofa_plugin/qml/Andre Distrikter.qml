@@ -807,7 +807,7 @@
     <default expression="" applyOnUpdate="0" field="cvr_kode"/>
     <default expression="" applyOnUpdate="0" field="cvr_navn"/>
     <default expression="" applyOnUpdate="0" field="kommunekode"/>
-    <default expression="@geofa_bruger_id" applyOnUpdate="0" field="bruger_id"/>
+    <default expression="@geofa_bruger_id" applyOnUpdate="1" field="bruger_id"/>
     <default expression="" applyOnUpdate="0" field="oprindkode"/>
     <default expression="" applyOnUpdate="0" field="oprindelse"/>
     <default expression="3" applyOnUpdate="0" field="statuskode"/>
