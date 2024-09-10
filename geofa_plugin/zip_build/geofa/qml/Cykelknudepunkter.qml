@@ -1,186 +1,186 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyDrawingHints="0" symbologyReferenceScale="-1" version="3.34.4-Prizren" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" minScale="100000000" maxScale="0" readOnly="0" labelsEnabled="0" simplifyAlgorithm="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyLocal="1">
+<qgis hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" readOnly="0" version="3.38.2-Grenoble" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" maxScale="0" styleCategories="AllStyleCategories" minScale="100000000" simplifyDrawingHints="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal mode="0" durationUnit="min" accumulate="0" limitMode="0" endField="" startExpression="" startField="" enabled="0" durationField="temakode" fixedDuration="0" endExpression="">
+  <temporal startExpression="" durationUnit="min" startField="" fixedDuration="0" endExpression="" enabled="0" mode="0" endField="" accumulate="0" limitMode="0" durationField="temakode">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation zoffset="0" extrusionEnabled="0" zscale="1" type="IndividualFeatures" symbology="Line" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" extrusion="0" showMarkerSymbolInSurfacePlots="0">
+  <elevation zscale="1" zoffset="0" binding="Centroid" clamping="Terrain" showMarkerSymbolInSurfacePlots="0" symbology="Line" extrusion="0" type="IndividualFeatures" extrusionEnabled="0" respectLayerSymbol="1">
     <data-defined-properties>
       <Option type="Map">
-        <Option type="QString" value="" name="name"/>
+        <Option value="" type="QString" name="name"/>
         <Option name="properties"/>
-        <Option type="QString" value="collection" name="type"/>
+        <Option value="collection" type="QString" name="type"/>
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol frame_rate="10" type="line" alpha="1" is_animated="0" name="" clip_to_extent="1" force_rhr="0">
+      <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="line" name="">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option value="" type="QString" name="name"/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option value="collection" type="QString" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" class="SimpleLine" enabled="1" locked="0" id="{8f83e122-2abc-4486-856e-56dcab2b6694}">
+        <layer class="SimpleLine" enabled="1" id="{8f83e122-2abc-4486-856e-56dcab2b6694}" locked="0" pass="0">
           <Option type="Map">
-            <Option type="QString" value="0" name="align_dash_pattern"/>
-            <Option type="QString" value="square" name="capstyle"/>
-            <Option type="QString" value="5;2" name="customdash"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
-            <Option type="QString" value="MM" name="customdash_unit"/>
-            <Option type="QString" value="0" name="dash_pattern_offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
-            <Option type="QString" value="0" name="draw_inside_polygon"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="231,113,72,255" name="line_color"/>
-            <Option type="QString" value="solid" name="line_style"/>
-            <Option type="QString" value="0.6" name="line_width"/>
-            <Option type="QString" value="MM" name="line_width_unit"/>
-            <Option type="QString" value="0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="0" name="ring_filter"/>
-            <Option type="QString" value="0" name="trim_distance_end"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
-            <Option type="QString" value="MM" name="trim_distance_end_unit"/>
-            <Option type="QString" value="0" name="trim_distance_start"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
-            <Option type="QString" value="MM" name="trim_distance_start_unit"/>
-            <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
-            <Option type="QString" value="0" name="use_custom_dash"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+            <Option value="0" type="QString" name="align_dash_pattern"/>
+            <Option value="square" type="QString" name="capstyle"/>
+            <Option value="5;2" type="QString" name="customdash"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+            <Option value="MM" type="QString" name="customdash_unit"/>
+            <Option value="0" type="QString" name="dash_pattern_offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+            <Option value="0" type="QString" name="draw_inside_polygon"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" type="QString" name="line_color"/>
+            <Option value="solid" type="QString" name="line_style"/>
+            <Option value="0.6" type="QString" name="line_width"/>
+            <Option value="MM" type="QString" name="line_width_unit"/>
+            <Option value="0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="0" type="QString" name="ring_filter"/>
+            <Option value="0" type="QString" name="trim_distance_end"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+            <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+            <Option value="0" type="QString" name="trim_distance_start"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+            <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+            <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+            <Option value="0" type="QString" name="use_custom_dash"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol frame_rate="10" type="fill" alpha="1" is_animated="0" name="" clip_to_extent="1" force_rhr="0">
+      <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="fill" name="">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option value="" type="QString" name="name"/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option value="collection" type="QString" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" class="SimpleFill" enabled="1" locked="0" id="{5ade610a-0fd2-4db4-b8c9-aa3ba49adce2}">
+        <layer class="SimpleFill" enabled="1" id="{5ade610a-0fd2-4db4-b8c9-aa3ba49adce2}" locked="0" pass="0">
           <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="231,113,72,255" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="165,81,51,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.2" name="outline_width"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" type="QString" name="color"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="165,81,51,255,rgb:0.6470588235294118,0.31764705882352939,0.20000000000000001,1" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.2" type="QString" name="outline_width"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="solid" type="QString" name="style"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol frame_rate="10" type="marker" alpha="1" is_animated="0" name="" clip_to_extent="1" force_rhr="0">
+      <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="marker" name="">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option value="" type="QString" name="name"/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option value="collection" type="QString" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" class="SimpleMarker" enabled="1" locked="0" id="{ba697f41-f99f-4493-9bc3-5dda7da79c4a}">
+        <layer class="SimpleMarker" enabled="1" id="{ba697f41-f99f-4493-9bc3-5dda7da79c4a}" locked="0" pass="0">
           <Option type="Map">
-            <Option type="QString" value="0" name="angle"/>
-            <Option type="QString" value="square" name="cap_style"/>
-            <Option type="QString" value="231,113,72,255" name="color"/>
-            <Option type="QString" value="1" name="horizontal_anchor_point"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="diamond" name="name"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="165,81,51,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.2" name="outline_width"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="diameter" name="scale_method"/>
-            <Option type="QString" value="3" name="size"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-            <Option type="QString" value="MM" name="size_unit"/>
-            <Option type="QString" value="1" name="vertical_anchor_point"/>
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="square" type="QString" name="cap_style"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="diamond" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="165,81,51,255,rgb:0.6470588235294118,0.31764705882352939,0.20000000000000001,1" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.2" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="3" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </profileMarkerSymbol>
   </elevation>
-  <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" referencescale="-1" symbollevels="0">
+  <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" referencescale="-1" enableorderby="0">
     <symbols>
-      <symbol frame_rate="10" type="marker" alpha="1" is_animated="0" name="0" clip_to_extent="1" force_rhr="0">
+      <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="marker" name="0">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option value="" type="QString" name="name"/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option value="collection" type="QString" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" class="SimpleMarker" enabled="1" locked="0" id="{6702f0df-677a-418f-9b7f-820b1322cdd5}">
+        <layer class="SimpleMarker" enabled="1" id="{6702f0df-677a-418f-9b7f-820b1322cdd5}" locked="0" pass="0">
           <Option type="Map">
-            <Option type="QString" value="0" name="angle"/>
-            <Option type="QString" value="square" name="cap_style"/>
-            <Option type="QString" value="153,51,102,255" name="color"/>
-            <Option type="QString" value="1" name="horizontal_anchor_point"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="circle" name="name"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="255,255,255,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.6" name="outline_width"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="diameter" name="scale_method"/>
-            <Option type="QString" value="2.5" name="size"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-            <Option type="QString" value="MM" name="size_unit"/>
-            <Option type="QString" value="1" name="vertical_anchor_point"/>
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="square" type="QString" name="cap_style"/>
+            <Option value="153,51,102,255,rgb:0.59999999999999998,0.20000000000000001,0.40000000000000002,1" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="circle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="255,255,255,255,rgb:1,1,1,1" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.6" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2.5" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -188,45 +188,52 @@
     </symbols>
     <rotation/>
     <sizescale/>
+    <data-defined-properties>
+      <Option type="Map">
+        <Option value="" type="QString" name="name"/>
+        <Option name="properties"/>
+        <Option value="collection" type="QString" name="type"/>
+      </Option>
+    </data-defined-properties>
   </renderer-v2>
   <selection mode="Default">
     <selectionColor invalid="1"/>
     <selectionSymbol>
-      <symbol frame_rate="10" type="marker" alpha="1" is_animated="0" name="" clip_to_extent="1" force_rhr="0">
+      <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="marker" name="">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option value="" type="QString" name="name"/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option value="collection" type="QString" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" class="SimpleMarker" enabled="1" locked="0" id="{252e26b5-7889-406e-a5ea-741516a3ac01}">
+        <layer class="SimpleMarker" enabled="1" id="{252e26b5-7889-406e-a5ea-741516a3ac01}" locked="0" pass="0">
           <Option type="Map">
-            <Option type="QString" value="0" name="angle"/>
-            <Option type="QString" value="square" name="cap_style"/>
-            <Option type="QString" value="255,0,0,255" name="color"/>
-            <Option type="QString" value="1" name="horizontal_anchor_point"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="circle" name="name"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="35,35,35,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0" name="outline_width"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="diameter" name="scale_method"/>
-            <Option type="QString" value="2" name="size"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-            <Option type="QString" value="MM" name="size_unit"/>
-            <Option type="QString" value="1" name="vertical_anchor_point"/>
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="square" type="QString" name="cap_style"/>
+            <Option value="255,0,0,255,rgb:1,0,0,1" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="circle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -236,9 +243,9 @@
   <customproperties>
     <Option type="Map">
       <Option type="List" name="dualview/previewExpressions">
-        <Option type="QString" value="&quot;foto_link1&quot;"/>
+        <Option value="&quot;foto_link1&quot;" type="QString"/>
       </Option>
-      <Option type="int" value="0" name="embeddedWidgets/count"/>
+      <Option value="0" type="int" name="embeddedWidgets/count"/>
       <Option name="variableNames"/>
       <Option name="variableValues"/>
     </Option>
@@ -247,53 +254,53 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory barWidth="5" spacing="5" scaleDependency="Area" penColor="#000000" spacingUnit="MM" penWidth="0" backgroundColor="#ffffff" minimumSize="0" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" enabled="0" diagramOrientation="Up" minScaleDenominator="0" rotationOffset="270" direction="0" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" sizeType="MM" scaleBasedVisibility="0" width="15" lineSizeScale="3x:0,0,0,0,0,0" height="15" showAxis="1" backgroundAlpha="255" lineSizeType="MM" opacity="1" spacingUnitScale="3x:0,0,0,0,0,0">
-      <fontProperties italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
-      <attribute colorOpacity="1" field="" label="" color="#000000"/>
+    <DiagramCategory minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" spacing="5" penColor="#000000" penWidth="0" rotationOffset="270" minScaleDenominator="0" opacity="1" penAlpha="255" backgroundAlpha="255" lineSizeType="MM" backgroundColor="#ffffff" spacingUnit="MM" scaleDependency="Area" direction="0" sizeType="MM" labelPlacementMethod="XHeight" showAxis="1" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" width="15" diagramOrientation="Up" barWidth="5" maxScaleDenominator="1e+08" height="15" enabled="0">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+      <attribute color="#000000" label="" field="" colorOpacity="1"/>
       <axisSymbol>
-        <symbol frame_rate="10" type="line" alpha="1" is_animated="0" name="" clip_to_extent="1" force_rhr="0">
+        <symbol force_rhr="0" clip_to_extent="1" frame_rate="10" is_animated="0" alpha="1" type="line" name="">
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <layer pass="0" class="SimpleLine" enabled="1" locked="0" id="{1b16729c-9524-4f04-add3-f4b6ece86952}">
+          <layer class="SimpleLine" enabled="1" id="{1b16729c-9524-4f04-add3-f4b6ece86952}" locked="0" pass="0">
             <Option type="Map">
-              <Option type="QString" value="0" name="align_dash_pattern"/>
-              <Option type="QString" value="square" name="capstyle"/>
-              <Option type="QString" value="5;2" name="customdash"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
-              <Option type="QString" value="MM" name="customdash_unit"/>
-              <Option type="QString" value="0" name="dash_pattern_offset"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
-              <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
-              <Option type="QString" value="0" name="draw_inside_polygon"/>
-              <Option type="QString" value="bevel" name="joinstyle"/>
-              <Option type="QString" value="35,35,35,255" name="line_color"/>
-              <Option type="QString" value="solid" name="line_style"/>
-              <Option type="QString" value="0.26" name="line_width"/>
-              <Option type="QString" value="MM" name="line_width_unit"/>
-              <Option type="QString" value="0" name="offset"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-              <Option type="QString" value="MM" name="offset_unit"/>
-              <Option type="QString" value="0" name="ring_filter"/>
-              <Option type="QString" value="0" name="trim_distance_end"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
-              <Option type="QString" value="MM" name="trim_distance_end_unit"/>
-              <Option type="QString" value="0" name="trim_distance_start"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
-              <Option type="QString" value="MM" name="trim_distance_start_unit"/>
-              <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
-              <Option type="QString" value="0" name="use_custom_dash"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              <Option value="0" type="QString" name="align_dash_pattern"/>
+              <Option value="square" type="QString" name="capstyle"/>
+              <Option value="5;2" type="QString" name="customdash"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+              <Option value="MM" type="QString" name="customdash_unit"/>
+              <Option value="0" type="QString" name="dash_pattern_offset"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+              <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+              <Option value="0" type="QString" name="draw_inside_polygon"/>
+              <Option value="bevel" type="QString" name="joinstyle"/>
+              <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" type="QString" name="line_color"/>
+              <Option value="solid" type="QString" name="line_style"/>
+              <Option value="0.26" type="QString" name="line_width"/>
+              <Option value="MM" type="QString" name="line_width_unit"/>
+              <Option value="0" type="QString" name="offset"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+              <Option value="MM" type="QString" name="offset_unit"/>
+              <Option value="0" type="QString" name="ring_filter"/>
+              <Option value="0" type="QString" name="trim_distance_end"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+              <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+              <Option value="0" type="QString" name="trim_distance_start"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+              <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+              <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+              <Option value="0" type="QString" name="use_custom_dash"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
             </Option>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option value="" type="QString" name="name"/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -301,12 +308,12 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings dist="0" showAll="1" placement="0" obstacle="0" zIndex="0" priority="0" linePlacementFlags="18">
+  <DiagramLayerSettings zIndex="0" obstacle="0" linePlacementFlags="18" dist="0" showAll="1" placement="0" priority="0">
     <properties>
       <Option type="Map">
-        <Option type="QString" value="" name="name"/>
+        <Option value="" type="QString" name="name"/>
         <Option name="properties"/>
-        <Option type="QString" value="collection" name="type"/>
+        <Option value="collection" type="QString" name="type"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -314,351 +321,415 @@
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
-  <legend type="default-vector" showLabelLegend="0"/>
+  <legend showLabelLegend="0" type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="NoFlag" name="temakode">
+    <field name="temakode" configurationFlags="NoFlag">
       <editWidget type="Range">
         <config>
           <Option type="Map">
-            <Option type="bool" value="true" name="AllowNull"/>
-            <Option type="int" value="2147483647" name="Max"/>
-            <Option type="int" value="-2147483648" name="Min"/>
-            <Option type="int" value="0" name="Precision"/>
-            <Option type="int" value="1" name="Step"/>
-            <Option type="QString" value="SpinBox" name="Style"/>
+            <Option value="true" type="bool" name="AllowNull"/>
+            <Option value="2147483647" type="int" name="Max"/>
+            <Option value="-2147483648" type="int" name="Min"/>
+            <Option value="0" type="int" name="Precision"/>
+            <Option value="1" type="int" name="Step"/>
+            <Option value="SpinBox" type="QString" name="Style"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="temanavn">
+    <field name="temanavn" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="objekt_id">
+    <field name="objekt_id" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="versions_id">
+    <field name="versions_id" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="systid_fra">
+    <field name="systid_fra" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="systid_til">
+    <field name="systid_til" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="oprettet">
+    <field name="oprettet" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="cvr_kode">
+    <field name="cvr_kode" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="" name="Description"/>
-            <Option type="QString" value="" name="FilterExpression"/>
-            <Option type="QString" value="cvr_kode" name="Key"/>
-            <Option type="QString" value="d_basis_ansvarlig_myndighed_db676151_11df_438a_a8a7_8b148bcf60c6" name="Layer"/>
-            <Option type="QString" value="d_basis_ansvarlig_myndighed" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ansvarlig_myndighed" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="cvr_navn" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="cvr_kode" type="QString" name="Key"/>
+            <Option value="d_basis_ansvarlig_myndighed_3b14709b_3d71_474e_bdbf_6c9058dcd1e2" type="QString" name="Layer"/>
+            <Option value="d_basis_ansvarlig_myndighed" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ansvarlig_myndighed" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="cvr_navn" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="cvr_navn">
+    <field name="cvr_navn" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="kommunekode">
+    <field name="kommunekode" configurationFlags="NoFlag">
       <editWidget type="Range">
         <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="bruger_id">
-      <editWidget type="TextEdit">
-        <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="true" type="bool" name="AllowNull"/>
+            <Option value="2147483647" type="int" name="Max"/>
+            <Option value="-2147483648" type="int" name="Min"/>
+            <Option value="0" type="int" name="Precision"/>
+            <Option value="1" type="int" name="Step"/>
+            <Option value="SpinBox" type="QString" name="Style"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="oprindkode">
+    <field name="bruger_id" configurationFlags="NoFlag">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="oprindkode" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="" name="Description"/>
-            <Option type="QString" value="" name="FilterExpression"/>
-            <Option type="QString" value="oprindkode" name="Key"/>
-            <Option type="QString" value="d_basis_oprindelse_d463dc36_deca_42bd_a26a_a3e75534df15" name="Layer"/>
-            <Option type="QString" value="d_basis_oprindelse" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_oprindelse" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="oprindelse" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="oprindkode" type="QString" name="Key"/>
+            <Option value="d_basis_oprindelse_5d39b0b1_a5a1_4f73_9753_53227fb19ba9" type="QString" name="Layer"/>
+            <Option value="d_basis_oprindelse" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_oprindelse" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="oprindelse" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="oprindelse">
+    <field name="oprindelse" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="statuskode">
+    <field name="statuskode" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="" name="Description"/>
-            <Option type="QString" value="" name="FilterExpression"/>
-            <Option type="QString" value="statuskode" name="Key"/>
-            <Option type="QString" value="d_basis_status_df1baa0f_1e90_4127_b003_db9ce62e1a33" name="Layer"/>
-            <Option type="QString" value="d_basis_status" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_status" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="status" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="statuskode" type="QString" name="Key"/>
+            <Option value="d_basis_status_37b704a1_4c9d_466d_9cbe_ab91ee14b643" type="QString" name="Layer"/>
+            <Option value="d_basis_status" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_status" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="status" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="status">
+    <field name="status" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="off_kode">
+    <field name="off_kode" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="" name="Description"/>
-            <Option type="QString" value="" name="FilterExpression"/>
-            <Option type="QString" value="off_kode" name="Key"/>
-            <Option type="QString" value="d_basis_offentlig_dce8c244_4cfc_46df_be2f_56e8a9925bca" name="Layer"/>
-            <Option type="QString" value="d_basis_offentlig" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_offentlig" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="offentlig" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="off_kode" type="QString" name="Key"/>
+            <Option value="d_basis_offentlig_6201f0ad_a894_4b97_bbd6_5e43cb6c8713" type="QString" name="Layer"/>
+            <Option value="d_basis_offentlig" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_offentlig" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="offentlig" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="offentlig">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="noegle">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="note">
+    <field name="offentlig" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="beliggenhedskommune">
+    <field name="noegle" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="id_cykelknudepkt">
+    <field name="note" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="nodenumber">
+    <field name="beliggenhedskommune" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="planstatus_kode">
+    <field name="id_cykelknudepkt" configurationFlags="NoFlag">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="nodenumber" configurationFlags="NoFlag">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="planstatus_kode" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="&quot;begrebsdefinition&quot;" name="Description"/>
-            <Option type="QString" value="" name="FilterExpression"/>
-            <Option type="QString" value="planstatus_kode" name="Key"/>
-            <Option type="QString" value="d_basis_planstatus_6e8e3712_7645_4643_b04a_1f8e4c693560" name="Layer"/>
-            <Option type="QString" value="d_basis_planstatus" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_planstatus" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="planstatus" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="&quot;begrebsdefinition&quot;" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="planstatus_kode" type="QString" name="Key"/>
+            <Option value="d_basis_planstatus_1d81c42f_e595_4eb9_8f63_d6b90040ef47" type="QString" name="Layer"/>
+            <Option value="d_basis_planstatus" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_planstatus" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="planstatus" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="planstatus">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="ismain">
-      <editWidget type="ValueRelation">
-        <config>
-          <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="&quot;begrebsdefinition&quot;" name="Description"/>
-            <Option type="QString" value="ja_nej_kode &lt;= 1 AND aktiv = 1" name="FilterExpression"/>
-            <Option type="QString" value="ja_nej_kode" name="Key"/>
-            <Option type="QString" value="d_basis_ja_nej_310a590b_a5f9_4241_877e_4c636aab5c7f" name="Layer"/>
-            <Option type="QString" value="d_basis_ja_nej" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="ja_nej" name="Value"/>
-          </Option>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="deadend">
-      <editWidget type="ValueRelation">
-        <config>
-          <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="&quot;begrebsdefinition&quot;" name="Description"/>
-            <Option type="QString" value="ja_nej_kode &lt;= 1 AND aktiv = 1" name="FilterExpression"/>
-            <Option type="QString" value="ja_nej_kode" name="Key"/>
-            <Option type="QString" value="d_basis_ja_nej_310a590b_a5f9_4241_877e_4c636aab5c7f" name="Layer"/>
-            <Option type="QString" value="d_basis_ja_nej" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="ja_nej" name="Value"/>
-          </Option>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="NoFlag" name="refmain">
+    <field name="planstatus" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="afm_cykelknudepkt">
+    <field name="ismain" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="AllowMulti"/>
-            <Option type="bool" value="false" name="AllowNull"/>
-            <Option type="QString" value="&quot;begrebsdefinition&quot;" name="Description"/>
-            <Option type="QString" value="ja_nej_kode &lt;= 1 AND aktiv = 1" name="FilterExpression"/>
-            <Option type="QString" value="ja_nej_kode" name="Key"/>
-            <Option type="QString" value="d_basis_ja_nej_310a590b_a5f9_4241_877e_4c636aab5c7f" name="Layer"/>
-            <Option type="QString" value="d_basis_ja_nej" name="LayerName"/>
-            <Option type="QString" value="ogr" name="LayerProviderName"/>
-            <Option type="QString" value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" name="LayerSource"/>
-            <Option type="int" value="1" name="NofColumns"/>
-            <Option type="bool" value="false" name="OrderByValue"/>
-            <Option type="bool" value="false" name="UseCompleter"/>
-            <Option type="QString" value="ja_nej_kode" name="Value"/>
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="&quot;begrebsdefinition&quot;" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="ja_nej_kode &lt;= 1 AND aktiv = 1" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="ja_nej_kode" type="QString" name="Key"/>
+            <Option value="d_basis_ja_nej_e839a5d1_aaf3_458c_9084_ae8aa6083ef9" type="QString" name="Layer"/>
+            <Option value="d_basis_ja_nej" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="ja_nej" type="QString" name="Value"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="link">
+    <field name="deadend" configurationFlags="NoFlag">
+      <editWidget type="ValueRelation">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="&quot;begrebsdefinition&quot;" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="ja_nej_kode &lt;= 1 AND aktiv = 1" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="ja_nej_kode" type="QString" name="Key"/>
+            <Option value="d_basis_ja_nej_e839a5d1_aaf3_458c_9084_ae8aa6083ef9" type="QString" name="Layer"/>
+            <Option value="d_basis_ja_nej" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="ja_nej" type="QString" name="Value"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="refmain" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
-            <Option type="bool" value="false" name="UseHtml"/>
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="afm_cykelknudepkt" configurationFlags="NoFlag">
+      <editWidget type="ValueRelation">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="AllowMulti"/>
+            <Option value="false" type="bool" name="AllowNull"/>
+            <Option value="2" type="int" name="CompleterMatchFlags"/>
+            <Option value="&quot;begrebsdefinition&quot;" type="QString" name="Description"/>
+            <Option value="false" type="bool" name="DisplayGroupName"/>
+            <Option value="ja_nej_kode &lt;= 1 AND aktiv = 1" type="QString" name="FilterExpression"/>
+            <Option value="" type="QString" name="Group"/>
+            <Option value="ja_nej_kode" type="QString" name="Key"/>
+            <Option value="d_basis_ja_nej_e839a5d1_aaf3_458c_9084_ae8aa6083ef9" type="QString" name="Layer"/>
+            <Option value="d_basis_ja_nej" type="QString" name="LayerName"/>
+            <Option value="ogr" type="QString" name="LayerProviderName"/>
+            <Option value="https://geofa.geodanmark.dk/api/v2/sql/fkg?q=SELECT%20*%20FROM%20fkg.d_basis_ja_nej" type="QString" name="LayerSource"/>
+            <Option value="1" type="int" name="NofColumns"/>
+            <Option value="false" type="bool" name="OrderByValue"/>
+            <Option value="false" type="bool" name="UseCompleter"/>
+            <Option value="ja_nej" type="QString" name="Value"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="link" configurationFlags="NoFlag">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option value="false" type="bool" name="IsMultiline"/>
+            <Option value="false" type="bool" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -676,185 +747,216 @@
     <alias index="8" field="cvr_navn" name=""/>
     <alias index="9" field="kommunekode" name=""/>
     <alias index="10" field="bruger_id" name=""/>
-    <alias index="11" field="oprindkode" name=""/>
+    <alias index="11" field="oprindkode" name="Oprindelse (oprindkode)"/>
     <alias index="12" field="oprindelse" name=""/>
-    <alias index="13" field="statuskode" name=""/>
+    <alias index="13" field="statuskode" name="Status (statuskode)"/>
     <alias index="14" field="status" name=""/>
-    <alias index="15" field="off_kode" name=""/>
+    <alias index="15" field="off_kode" name="Offentlig (off_kode)"/>
     <alias index="16" field="offentlig" name=""/>
     <alias index="17" field="noegle" name=""/>
-    <alias index="18" field="note" name="Bemærkning"/>
-    <alias index="19" field="beliggenhedskommune" name="Beliggenhedskommune"/>
-    <alias index="20" field="id_cykelknudepkt" name="Cykelknudepunkt id"/>
-    <alias index="21" field="nodenumber" name="Nodenumber"/>
-    <alias index="22" field="planstatus_kode" name="Planstatus"/>
+    <alias index="18" field="note" name="Bemærkning (note)"/>
+    <alias index="19" field="beliggenhedskommune" name=""/>
+    <alias index="20" field="id_cykelknudepkt" name="Cykelknudepunkt id (id_cykelknudepkt)"/>
+    <alias index="21" field="nodenumber" name="Nodenumber (nodenumber)"/>
+    <alias index="22" field="planstatus_kode" name="Planstatus (planstatus_kode)"/>
     <alias index="23" field="planstatus" name=""/>
-    <alias index="24" field="ismain" name="Ismain"/>
-    <alias index="25" field="deadend" name="Er knudepunkt slutpunkt?"/>
-    <alias index="26" field="refmain" name="Refmain"/>
-    <alias index="27" field="afm_cykelknudepkt" name="Er cykelknudepunktet skiltet?"/>
-    <alias index="28" field="link" name="Link"/>
+    <alias index="24" field="ismain" name="Ismain (ismain)"/>
+    <alias index="25" field="deadend" name="Er knudepunkt slutpunkt? (deadend)"/>
+    <alias index="26" field="refmain" name="Refmain (refmain)"/>
+    <alias index="27" field="afm_cykelknudepkt" name="Er cykelknudepunktet skiltet? (afm_cykelknudepkt)"/>
+    <alias index="28" field="link" name="Link (link)"/>
   </aliases>
   <splitPolicies>
-    <policy field="temakode" policy="Duplicate"/>
-    <policy field="temanavn" policy="Duplicate"/>
-    <policy field="objekt_id" policy="Duplicate"/>
-    <policy field="versions_id" policy="Duplicate"/>
-    <policy field="systid_fra" policy="Duplicate"/>
-    <policy field="systid_til" policy="Duplicate"/>
-    <policy field="oprettet" policy="Duplicate"/>
-    <policy field="cvr_kode" policy="Duplicate"/>
-    <policy field="cvr_navn" policy="Duplicate"/>
-    <policy field="kommunekode" policy="Duplicate"/>
-    <policy field="bruger_id" policy="Duplicate"/>
-    <policy field="oprindkode" policy="Duplicate"/>
-    <policy field="oprindelse" policy="Duplicate"/>
-    <policy field="statuskode" policy="Duplicate"/>
-    <policy field="status" policy="Duplicate"/>
-    <policy field="off_kode" policy="Duplicate"/>
-    <policy field="offentlig" policy="Duplicate"/>
-    <policy field="noegle" policy="Duplicate"/>
-    <policy field="note" policy="DefaultValue"/>
-    <policy field="beliggenhedskommune" policy="DefaultValue"/>
-    <policy field="id_cykelknudepkt" policy="DefaultValue"/>
-    <policy field="nodenumber" policy="DefaultValue"/>
-    <policy field="planstatus_kode" policy="DefaultValue"/>
-    <policy field="planstatus" policy="Duplicate"/>
-    <policy field="ismain" policy="DefaultValue"/>
-    <policy field="deadend" policy="DefaultValue"/>
-    <policy field="refmain" policy="DefaultValue"/>
-    <policy field="afm_cykelknudepkt" policy="DefaultValue"/>
-    <policy field="link" policy="DefaultValue"/>
+    <policy policy="DefaultValue" field="temakode"/>
+    <policy policy="DefaultValue" field="temanavn"/>
+    <policy policy="DefaultValue" field="objekt_id"/>
+    <policy policy="DefaultValue" field="versions_id"/>
+    <policy policy="DefaultValue" field="systid_fra"/>
+    <policy policy="DefaultValue" field="systid_til"/>
+    <policy policy="DefaultValue" field="oprettet"/>
+    <policy policy="DefaultValue" field="cvr_kode"/>
+    <policy policy="DefaultValue" field="cvr_navn"/>
+    <policy policy="DefaultValue" field="kommunekode"/>
+    <policy policy="DefaultValue" field="bruger_id"/>
+    <policy policy="DefaultValue" field="oprindkode"/>
+    <policy policy="DefaultValue" field="oprindelse"/>
+    <policy policy="DefaultValue" field="statuskode"/>
+    <policy policy="DefaultValue" field="status"/>
+    <policy policy="DefaultValue" field="off_kode"/>
+    <policy policy="DefaultValue" field="offentlig"/>
+    <policy policy="DefaultValue" field="noegle"/>
+    <policy policy="DefaultValue" field="note"/>
+    <policy policy="DefaultValue" field="beliggenhedskommune"/>
+    <policy policy="DefaultValue" field="id_cykelknudepkt"/>
+    <policy policy="DefaultValue" field="nodenumber"/>
+    <policy policy="DefaultValue" field="planstatus_kode"/>
+    <policy policy="DefaultValue" field="planstatus"/>
+    <policy policy="DefaultValue" field="ismain"/>
+    <policy policy="DefaultValue" field="deadend"/>
+    <policy policy="DefaultValue" field="refmain"/>
+    <policy policy="DefaultValue" field="afm_cykelknudepkt"/>
+    <policy policy="DefaultValue" field="link"/>
   </splitPolicies>
+  <duplicatePolicies>
+    <policy policy="Duplicate" field="temakode"/>
+    <policy policy="Duplicate" field="temanavn"/>
+    <policy policy="Duplicate" field="objekt_id"/>
+    <policy policy="Duplicate" field="versions_id"/>
+    <policy policy="Duplicate" field="systid_fra"/>
+    <policy policy="Duplicate" field="systid_til"/>
+    <policy policy="Duplicate" field="oprettet"/>
+    <policy policy="Duplicate" field="cvr_kode"/>
+    <policy policy="Duplicate" field="cvr_navn"/>
+    <policy policy="Duplicate" field="kommunekode"/>
+    <policy policy="Duplicate" field="bruger_id"/>
+    <policy policy="Duplicate" field="oprindkode"/>
+    <policy policy="Duplicate" field="oprindelse"/>
+    <policy policy="Duplicate" field="statuskode"/>
+    <policy policy="Duplicate" field="status"/>
+    <policy policy="Duplicate" field="off_kode"/>
+    <policy policy="Duplicate" field="offentlig"/>
+    <policy policy="Duplicate" field="noegle"/>
+    <policy policy="Duplicate" field="note"/>
+    <policy policy="Duplicate" field="beliggenhedskommune"/>
+    <policy policy="Duplicate" field="id_cykelknudepkt"/>
+    <policy policy="Duplicate" field="nodenumber"/>
+    <policy policy="Duplicate" field="planstatus_kode"/>
+    <policy policy="Duplicate" field="planstatus"/>
+    <policy policy="Duplicate" field="ismain"/>
+    <policy policy="Duplicate" field="deadend"/>
+    <policy policy="Duplicate" field="refmain"/>
+    <policy policy="Duplicate" field="afm_cykelknudepkt"/>
+    <policy policy="Duplicate" field="link"/>
+  </duplicatePolicies>
   <defaults>
-    <default expression="5608" field="temakode" applyOnUpdate="0"/>
-    <default expression="" field="temanavn" applyOnUpdate="0"/>
-    <default expression="" field="objekt_id" applyOnUpdate="0"/>
-    <default expression="" field="versions_id" applyOnUpdate="0"/>
-    <default expression="" field="systid_fra" applyOnUpdate="0"/>
-    <default expression="" field="systid_til" applyOnUpdate="0"/>
-    <default expression="" field="oprettet" applyOnUpdate="0"/>
-    <default expression="" field="cvr_kode" applyOnUpdate="0"/>
-    <default expression="" field="cvr_navn" applyOnUpdate="0"/>
-    <default expression="" field="kommunekode" applyOnUpdate="0"/>
-    <default expression="@geofa_bruger_id" field="bruger_id" applyOnUpdate="1"/>
-    <default expression="" field="oprindkode" applyOnUpdate="0"/>
-    <default expression="" field="oprindelse" applyOnUpdate="0"/>
-    <default expression="" field="statuskode" applyOnUpdate="0"/>
-    <default expression="" field="status" applyOnUpdate="0"/>
-    <default expression="" field="off_kode" applyOnUpdate="0"/>
-    <default expression="" field="offentlig" applyOnUpdate="0"/>
-    <default expression="" field="noegle" applyOnUpdate="0"/>
-    <default expression="" field="note" applyOnUpdate="0"/>
-    <default expression="" field="beliggenhedskommune" applyOnUpdate="0"/>
-    <default expression="" field="id_cykelknudepkt" applyOnUpdate="0"/>
-    <default expression="" field="nodenumber" applyOnUpdate="0"/>
-    <default expression="" field="planstatus_kode" applyOnUpdate="0"/>
-    <default expression="" field="planstatus" applyOnUpdate="0"/>
-    <default expression="" field="ismain" applyOnUpdate="0"/>
-    <default expression="0" field="deadend" applyOnUpdate="0"/>
-    <default expression="0" field="refmain" applyOnUpdate="0"/>
-    <default expression="" field="afm_cykelknudepkt" applyOnUpdate="0"/>
-    <default expression="" field="link" applyOnUpdate="0"/>
+    <default expression="5608" applyOnUpdate="0" field="temakode"/>
+    <default expression="" applyOnUpdate="0" field="temanavn"/>
+    <default expression="" applyOnUpdate="0" field="objekt_id"/>
+    <default expression="" applyOnUpdate="0" field="versions_id"/>
+    <default expression="" applyOnUpdate="0" field="systid_fra"/>
+    <default expression="" applyOnUpdate="0" field="systid_til"/>
+    <default expression="" applyOnUpdate="0" field="oprettet"/>
+    <default expression="" applyOnUpdate="0" field="cvr_kode"/>
+    <default expression="" applyOnUpdate="0" field="cvr_navn"/>
+    <default expression="" applyOnUpdate="0" field="kommunekode"/>
+    <default expression="@geofa_bruger_id" applyOnUpdate="1" field="bruger_id"/>
+    <default expression="" applyOnUpdate="0" field="oprindkode"/>
+    <default expression="" applyOnUpdate="0" field="oprindelse"/>
+    <default expression="" applyOnUpdate="0" field="statuskode"/>
+    <default expression="" applyOnUpdate="0" field="status"/>
+    <default expression="" applyOnUpdate="0" field="off_kode"/>
+    <default expression="" applyOnUpdate="0" field="offentlig"/>
+    <default expression="" applyOnUpdate="0" field="noegle"/>
+    <default expression="" applyOnUpdate="0" field="note"/>
+    <default expression="" applyOnUpdate="0" field="beliggenhedskommune"/>
+    <default expression="" applyOnUpdate="0" field="id_cykelknudepkt"/>
+    <default expression="" applyOnUpdate="0" field="nodenumber"/>
+    <default expression="" applyOnUpdate="0" field="planstatus_kode"/>
+    <default expression="" applyOnUpdate="0" field="planstatus"/>
+    <default expression="" applyOnUpdate="0" field="ismain"/>
+    <default expression="0" applyOnUpdate="0" field="deadend"/>
+    <default expression="0" applyOnUpdate="0" field="refmain"/>
+    <default expression="" applyOnUpdate="0" field="afm_cykelknudepkt"/>
+    <default expression="" applyOnUpdate="0" field="link"/>
   </defaults>
   <constraints>
-    <constraint notnull_strength="0" field="temakode" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="temanavn" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="objekt_id" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="versions_id" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="systid_fra" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="systid_til" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="oprettet" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="1" field="cvr_kode" exp_strength="0" constraints="1" unique_strength="0"/>
-    <constraint notnull_strength="0" field="cvr_navn" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="kommunekode" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="bruger_id" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="1" field="oprindkode" exp_strength="0" constraints="1" unique_strength="0"/>
-    <constraint notnull_strength="0" field="oprindelse" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="1" field="statuskode" exp_strength="0" constraints="1" unique_strength="0"/>
-    <constraint notnull_strength="0" field="status" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="1" field="off_kode" exp_strength="0" constraints="1" unique_strength="0"/>
-    <constraint notnull_strength="0" field="offentlig" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="noegle" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="note" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="beliggenhedskommune" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="id_cykelknudepkt" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="nodenumber" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="1" field="planstatus_kode" exp_strength="0" constraints="1" unique_strength="0"/>
-    <constraint notnull_strength="0" field="planstatus" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="ismain" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="deadend" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="refmain" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="afm_cykelknudepkt" exp_strength="0" constraints="0" unique_strength="0"/>
-    <constraint notnull_strength="0" field="link" exp_strength="0" constraints="0" unique_strength="0"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="temakode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="temanavn"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="objekt_id"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="versions_id"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="systid_fra"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="systid_til"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="oprettet"/>
+    <constraint unique_strength="0" notnull_strength="1" exp_strength="0" constraints="1" field="cvr_kode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="cvr_navn"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="kommunekode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="bruger_id"/>
+    <constraint unique_strength="0" notnull_strength="1" exp_strength="0" constraints="1" field="oprindkode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="oprindelse"/>
+    <constraint unique_strength="0" notnull_strength="1" exp_strength="0" constraints="1" field="statuskode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="status"/>
+    <constraint unique_strength="0" notnull_strength="1" exp_strength="0" constraints="1" field="off_kode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="offentlig"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="noegle"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="note"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="beliggenhedskommune"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="id_cykelknudepkt"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="nodenumber"/>
+    <constraint unique_strength="0" notnull_strength="1" exp_strength="0" constraints="1" field="planstatus_kode"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="planstatus"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="ismain"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="deadend"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="refmain"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="afm_cykelknudepkt"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="link"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" field="temakode" desc=""/>
-    <constraint exp="" field="temanavn" desc=""/>
-    <constraint exp="" field="objekt_id" desc=""/>
-    <constraint exp="" field="versions_id" desc=""/>
-    <constraint exp="" field="systid_fra" desc=""/>
-    <constraint exp="" field="systid_til" desc=""/>
-    <constraint exp="" field="oprettet" desc=""/>
-    <constraint exp="" field="cvr_kode" desc=""/>
-    <constraint exp="" field="cvr_navn" desc=""/>
-    <constraint exp="" field="kommunekode" desc=""/>
-    <constraint exp="" field="bruger_id" desc=""/>
-    <constraint exp="" field="oprindkode" desc=""/>
-    <constraint exp="" field="oprindelse" desc=""/>
-    <constraint exp="" field="statuskode" desc=""/>
-    <constraint exp="" field="status" desc=""/>
-    <constraint exp="" field="off_kode" desc=""/>
-    <constraint exp="" field="offentlig" desc=""/>
-    <constraint exp="" field="noegle" desc=""/>
-    <constraint exp="" field="note" desc=""/>
-    <constraint exp="" field="beliggenhedskommune" desc=""/>
-    <constraint exp="" field="id_cykelknudepkt" desc=""/>
-    <constraint exp="" field="nodenumber" desc=""/>
-    <constraint exp="" field="planstatus_kode" desc=""/>
-    <constraint exp="" field="planstatus" desc=""/>
-    <constraint exp="" field="ismain" desc=""/>
-    <constraint exp="" field="deadend" desc=""/>
-    <constraint exp="" field="refmain" desc=""/>
-    <constraint exp="" field="afm_cykelknudepkt" desc=""/>
-    <constraint exp="" field="link" desc=""/>
+    <constraint exp="" desc="" field="temakode"/>
+    <constraint exp="" desc="" field="temanavn"/>
+    <constraint exp="" desc="" field="objekt_id"/>
+    <constraint exp="" desc="" field="versions_id"/>
+    <constraint exp="" desc="" field="systid_fra"/>
+    <constraint exp="" desc="" field="systid_til"/>
+    <constraint exp="" desc="" field="oprettet"/>
+    <constraint exp="" desc="" field="cvr_kode"/>
+    <constraint exp="" desc="" field="cvr_navn"/>
+    <constraint exp="" desc="" field="kommunekode"/>
+    <constraint exp="" desc="" field="bruger_id"/>
+    <constraint exp="" desc="" field="oprindkode"/>
+    <constraint exp="" desc="" field="oprindelse"/>
+    <constraint exp="" desc="" field="statuskode"/>
+    <constraint exp="" desc="" field="status"/>
+    <constraint exp="" desc="" field="off_kode"/>
+    <constraint exp="" desc="" field="offentlig"/>
+    <constraint exp="" desc="" field="noegle"/>
+    <constraint exp="" desc="" field="note"/>
+    <constraint exp="" desc="" field="beliggenhedskommune"/>
+    <constraint exp="" desc="" field="id_cykelknudepkt"/>
+    <constraint exp="" desc="" field="nodenumber"/>
+    <constraint exp="" desc="" field="planstatus_kode"/>
+    <constraint exp="" desc="" field="planstatus"/>
+    <constraint exp="" desc="" field="ismain"/>
+    <constraint exp="" desc="" field="deadend"/>
+    <constraint exp="" desc="" field="refmain"/>
+    <constraint exp="" desc="" field="afm_cykelknudepkt"/>
+    <constraint exp="" desc="" field="link"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;id&quot;" sortOrder="1">
+  <attributetableconfig actionWidgetStyle="dropDown" sortOrder="1" sortExpression="&quot;id&quot;">
     <columns>
-      <column type="field" name="planstatus_kode" hidden="0" width="-1"/>
-      <column type="field" name="cvr_kode" hidden="0" width="225"/>
-      <column type="field" name="status" hidden="0" width="-1"/>
-      <column type="field" name="off_kode" hidden="0" width="272"/>
-      <column type="field" name="nodenumber" hidden="0" width="115"/>
-      <column type="field" name="ismain" hidden="0" width="-1"/>
-      <column type="field" name="deadend" hidden="0" width="-1"/>
-      <column type="field" name="refmain" hidden="0" width="-1"/>
-      <column type="field" name="temakode" hidden="0" width="-1"/>
-      <column type="field" name="temanavn" hidden="0" width="-1"/>
-      <column type="field" name="objekt_id" hidden="0" width="-1"/>
-      <column type="field" name="versions_id" hidden="0" width="-1"/>
-      <column type="field" name="systid_fra" hidden="0" width="-1"/>
-      <column type="field" name="systid_til" hidden="0" width="-1"/>
-      <column type="field" name="oprettet" hidden="0" width="-1"/>
-      <column type="field" name="cvr_navn" hidden="0" width="-1"/>
-      <column type="field" name="kommunekode" hidden="0" width="-1"/>
-      <column type="field" name="bruger_id" hidden="0" width="-1"/>
-      <column type="field" name="oprindkode" hidden="0" width="-1"/>
-      <column type="field" name="oprindelse" hidden="0" width="-1"/>
-      <column type="field" name="statuskode" hidden="0" width="-1"/>
-      <column type="field" name="offentlig" hidden="0" width="-1"/>
-      <column type="field" name="noegle" hidden="0" width="-1"/>
-      <column type="field" name="note" hidden="0" width="-1"/>
-      <column type="field" name="beliggenhedskommune" hidden="0" width="-1"/>
-      <column type="field" name="id_cykelknudepkt" hidden="0" width="-1"/>
-      <column type="field" name="planstatus" hidden="0" width="-1"/>
-      <column type="field" name="afm_cykelknudepkt" hidden="0" width="-1"/>
-      <column type="field" name="link" hidden="0" width="-1"/>
-      <column type="actions" hidden="1" width="-1"/>
+      <column width="100" hidden="0" type="field" name="temakode"/>
+      <column width="100" hidden="0" type="field" name="temanavn"/>
+      <column width="-1" hidden="0" type="field" name="objekt_id"/>
+      <column width="100" hidden="0" type="field" name="versions_id"/>
+      <column width="100" hidden="0" type="field" name="systid_fra"/>
+      <column width="-1" hidden="0" type="field" name="systid_til"/>
+      <column width="-1" hidden="0" type="field" name="oprettet"/>
+      <column width="225" hidden="0" type="field" name="cvr_kode"/>
+      <column width="-1" hidden="0" type="field" name="cvr_navn"/>
+      <column width="-1" hidden="0" type="field" name="kommunekode"/>
+      <column width="-1" hidden="0" type="field" name="bruger_id"/>
+      <column width="-1" hidden="0" type="field" name="oprindkode"/>
+      <column width="-1" hidden="0" type="field" name="oprindelse"/>
+      <column width="-1" hidden="0" type="field" name="statuskode"/>
+      <column width="-1" hidden="0" type="field" name="status"/>
+      <column width="272" hidden="0" type="field" name="off_kode"/>
+      <column width="-1" hidden="0" type="field" name="offentlig"/>
+      <column width="-1" hidden="0" type="field" name="noegle"/>
+      <column width="-1" hidden="0" type="field" name="id_cykelknudepkt"/>
+      <column width="115" hidden="0" type="field" name="nodenumber"/>
+      <column width="-1" hidden="0" type="field" name="beliggenhedskommune"/>
+      <column width="183" hidden="0" type="field" name="planstatus_kode"/>
+      <column width="-1" hidden="0" type="field" name="planstatus"/>
+      <column width="-1" hidden="0" type="field" name="ismain"/>
+      <column width="-1" hidden="0" type="field" name="deadend"/>
+      <column width="-1" hidden="0" type="field" name="refmain"/>
+      <column width="-1" hidden="0" type="field" name="afm_cykelknudepkt"/>
+      <column width="-1" hidden="0" type="field" name="link"/>
+      <column width="-1" hidden="0" type="field" name="note"/>
+      <column width="-1" hidden="1" type="actions"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -886,86 +988,141 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-      <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+    <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+      <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
     </labelStyle>
-    <attributeEditorContainer collapsed="0" type="GroupBox" showLabel="1" collapsedExpression="" visibilityExpressionEnabled="0" columnCount="1" groupBox="1" verticalStretch="0" collapsedExpressionEnabled="0" name="Generelt" horizontalStretch="0" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+    <attributeEditorContainer collapsedExpressionEnabled="0" collapsed="0" columnCount="1" showLabel="1" collapsedExpression="" horizontalStretch="0" type="Tab" groupBox="0" name="Generelt" visibilityExpressionEnabled="0" verticalStretch="0" visibilityExpression="">
+      <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+        <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
       </labelStyle>
-      <attributeEditorField index="7" showLabel="1" verticalStretch="0" name="cvr_kode" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="7" horizontalStretch="0" name="cvr_kode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="11" showLabel="1" verticalStretch="0" name="oprindkode" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="11" horizontalStretch="0" name="oprindkode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="13" showLabel="1" verticalStretch="0" name="statuskode" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="13" horizontalStretch="0" name="statuskode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="15" showLabel="1" verticalStretch="0" name="off_kode" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="15" horizontalStretch="0" name="off_kode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="22" showLabel="1" verticalStretch="0" name="planstatus_kode" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField index="19" showLabel="1" verticalStretch="0" name="beliggenhedskommune" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="22" horizontalStretch="0" name="planstatus_kode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer collapsed="0" type="GroupBox" showLabel="1" collapsedExpression="" visibilityExpressionEnabled="0" columnCount="1" groupBox="1" verticalStretch="0" collapsedExpressionEnabled="0" name="Cykelknudepunkt" horizontalStretch="0" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0"/>
+    <attributeEditorContainer collapsedExpressionEnabled="0" collapsed="0" columnCount="1" showLabel="1" collapsedExpression="" horizontalStretch="0" type="Tab" groupBox="0" name="Cykelknudepunkt" visibilityExpressionEnabled="0" verticalStretch="0" visibilityExpression="">
+      <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+        <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
       </labelStyle>
-      <attributeEditorField index="20" showLabel="1" verticalStretch="0" name="id_cykelknudepkt" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="20" horizontalStretch="0" name="id_cykelknudepkt" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="21" showLabel="1" verticalStretch="0" name="nodenumber" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="21" horizontalStretch="0" name="nodenumber" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="26" showLabel="1" verticalStretch="0" name="refmain" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="26" horizontalStretch="0" name="refmain" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="24" showLabel="1" verticalStretch="0" name="ismain" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="24" horizontalStretch="0" name="ismain" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="27" showLabel="1" verticalStretch="0" name="afm_cykelknudepkt" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="27" horizontalStretch="0" name="afm_cykelknudepkt" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="25" showLabel="1" verticalStretch="0" name="deadend" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="25" horizontalStretch="0" name="deadend" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="28" showLabel="1" verticalStretch="0" name="link" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="28" horizontalStretch="0" name="link" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField index="18" showLabel="1" verticalStretch="0" name="note" horizontalStretch="0">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont italic="0" style="" underline="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0"/>
+      <attributeEditorField showLabel="1" index="18" horizontalStretch="0" name="note" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+    </attributeEditorContainer>
+    <attributeEditorContainer collapsedExpressionEnabled="0" collapsed="0" columnCount="1" showLabel="1" collapsedExpression="" horizontalStretch="0" type="Tab" groupBox="0" name="Øvrige felter" visibilityExpressionEnabled="0" verticalStretch="0" visibilityExpression="">
+      <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+        <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+      </labelStyle>
+      <attributeEditorField showLabel="1" index="0" horizontalStretch="0" name="temakode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="1" horizontalStretch="0" name="temanavn" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="2" horizontalStretch="0" name="objekt_id" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="3" horizontalStretch="0" name="versions_id" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="4" horizontalStretch="0" name="systid_fra" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="5" horizontalStretch="0" name="systid_til" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="6" horizontalStretch="0" name="oprettet" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="9" horizontalStretch="0" name="kommunekode" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="10" horizontalStretch="0" name="bruger_id" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="17" horizontalStretch="0" name="noegle" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
+        </labelStyle>
+      </attributeEditorField>
+      <attributeEditorField showLabel="1" index="19" horizontalStretch="0" name="beliggenhedskommune" verticalStretch="0">
+        <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" strikethrough="0" style="" underline="0" italic="0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
@@ -1036,69 +1193,69 @@ def my_form_open(dialog, layer, feature):
     <field editable="1" name="versions_id"/>
   </editable>
   <labelOnTop>
-    <field name="adr_id" labelOnTop="0"/>
-    <field name="afm_cykelknudepkt" labelOnTop="0"/>
-    <field name="ansvar_org" labelOnTop="0"/>
-    <field name="antal_ladepunkter" labelOnTop="0"/>
-    <field name="anvendelsesgrad_kwh" labelOnTop="0"/>
-    <field name="beliggenhedskommune" labelOnTop="0"/>
-    <field name="bruger_id" labelOnTop="0"/>
-    <field name="cvr_kode" labelOnTop="0"/>
-    <field name="cvr_navn" labelOnTop="0"/>
-    <field name="deadend" labelOnTop="0"/>
-    <field name="driftstart_fra" labelOnTop="0"/>
-    <field name="effekt_type" labelOnTop="0"/>
-    <field name="effekt_type_kode" labelOnTop="0"/>
-    <field name="ejer_ladefacilitet" labelOnTop="0"/>
-    <field name="foto_link" labelOnTop="0"/>
-    <field name="foto_link1" labelOnTop="0"/>
-    <field name="foto_link2" labelOnTop="0"/>
-    <field name="foto_link3" labelOnTop="0"/>
-    <field name="gyldig_fra" labelOnTop="0"/>
-    <field name="gyldig_til" labelOnTop="0"/>
-    <field name="id_cykelknudepkt" labelOnTop="0"/>
-    <field name="internationalt_id" labelOnTop="0"/>
-    <field name="internationalt_id1" labelOnTop="0"/>
-    <field name="internationalt_id2" labelOnTop="0"/>
-    <field name="internationalt_id3" labelOnTop="0"/>
-    <field name="internationalt_id4" labelOnTop="0"/>
-    <field name="internationalt_id5" labelOnTop="0"/>
-    <field name="ismain" labelOnTop="0"/>
-    <field name="kommunekode" labelOnTop="0"/>
-    <field name="kontak_ved" labelOnTop="0"/>
-    <field name="ladefacilitet_type" labelOnTop="0"/>
-    <field name="ladefacilitet_type_kode" labelOnTop="0"/>
-    <field name="link" labelOnTop="0"/>
-    <field name="link1" labelOnTop="0"/>
-    <field name="link2" labelOnTop="0"/>
-    <field name="link3" labelOnTop="0"/>
-    <field name="link4" labelOnTop="0"/>
-    <field name="nodenumber" labelOnTop="0"/>
-    <field name="noegle" labelOnTop="0"/>
-    <field name="note" labelOnTop="0"/>
-    <field name="objekt_id" labelOnTop="0"/>
-    <field name="off_kode" labelOnTop="0"/>
-    <field name="offentlig" labelOnTop="0"/>
-    <field name="omraade_navn" labelOnTop="0"/>
-    <field name="operatoer_ladefacilitet" labelOnTop="0"/>
-    <field name="oprettet" labelOnTop="0"/>
-    <field name="oprindelse" labelOnTop="0"/>
-    <field name="oprindkode" labelOnTop="0"/>
-    <field name="planstatus" labelOnTop="0"/>
-    <field name="planstatus_kode" labelOnTop="0"/>
-    <field name="refmain" labelOnTop="0"/>
-    <field name="sagsnr" labelOnTop="0"/>
-    <field name="status" labelOnTop="0"/>
-    <field name="statuskode" labelOnTop="0"/>
-    <field name="stiktype" labelOnTop="0"/>
-    <field name="systid_fra" labelOnTop="0"/>
-    <field name="systid_til" labelOnTop="0"/>
-    <field name="temakode" labelOnTop="0"/>
-    <field name="temanavn" labelOnTop="0"/>
-    <field name="tilgaengelighed_type" labelOnTop="0"/>
-    <field name="tilgaengelighed_type_kode" labelOnTop="0"/>
-    <field name="udbyder_ladefacilitet" labelOnTop="0"/>
-    <field name="versions_id" labelOnTop="0"/>
+    <field labelOnTop="0" name="adr_id"/>
+    <field labelOnTop="0" name="afm_cykelknudepkt"/>
+    <field labelOnTop="0" name="ansvar_org"/>
+    <field labelOnTop="0" name="antal_ladepunkter"/>
+    <field labelOnTop="0" name="anvendelsesgrad_kwh"/>
+    <field labelOnTop="0" name="beliggenhedskommune"/>
+    <field labelOnTop="0" name="bruger_id"/>
+    <field labelOnTop="0" name="cvr_kode"/>
+    <field labelOnTop="0" name="cvr_navn"/>
+    <field labelOnTop="0" name="deadend"/>
+    <field labelOnTop="0" name="driftstart_fra"/>
+    <field labelOnTop="0" name="effekt_type"/>
+    <field labelOnTop="0" name="effekt_type_kode"/>
+    <field labelOnTop="0" name="ejer_ladefacilitet"/>
+    <field labelOnTop="0" name="foto_link"/>
+    <field labelOnTop="0" name="foto_link1"/>
+    <field labelOnTop="0" name="foto_link2"/>
+    <field labelOnTop="0" name="foto_link3"/>
+    <field labelOnTop="0" name="gyldig_fra"/>
+    <field labelOnTop="0" name="gyldig_til"/>
+    <field labelOnTop="0" name="id_cykelknudepkt"/>
+    <field labelOnTop="0" name="internationalt_id"/>
+    <field labelOnTop="0" name="internationalt_id1"/>
+    <field labelOnTop="0" name="internationalt_id2"/>
+    <field labelOnTop="0" name="internationalt_id3"/>
+    <field labelOnTop="0" name="internationalt_id4"/>
+    <field labelOnTop="0" name="internationalt_id5"/>
+    <field labelOnTop="0" name="ismain"/>
+    <field labelOnTop="0" name="kommunekode"/>
+    <field labelOnTop="0" name="kontak_ved"/>
+    <field labelOnTop="0" name="ladefacilitet_type"/>
+    <field labelOnTop="0" name="ladefacilitet_type_kode"/>
+    <field labelOnTop="0" name="link"/>
+    <field labelOnTop="0" name="link1"/>
+    <field labelOnTop="0" name="link2"/>
+    <field labelOnTop="0" name="link3"/>
+    <field labelOnTop="0" name="link4"/>
+    <field labelOnTop="0" name="nodenumber"/>
+    <field labelOnTop="0" name="noegle"/>
+    <field labelOnTop="0" name="note"/>
+    <field labelOnTop="0" name="objekt_id"/>
+    <field labelOnTop="0" name="off_kode"/>
+    <field labelOnTop="0" name="offentlig"/>
+    <field labelOnTop="0" name="omraade_navn"/>
+    <field labelOnTop="0" name="operatoer_ladefacilitet"/>
+    <field labelOnTop="0" name="oprettet"/>
+    <field labelOnTop="0" name="oprindelse"/>
+    <field labelOnTop="0" name="oprindkode"/>
+    <field labelOnTop="0" name="planstatus"/>
+    <field labelOnTop="0" name="planstatus_kode"/>
+    <field labelOnTop="0" name="refmain"/>
+    <field labelOnTop="0" name="sagsnr"/>
+    <field labelOnTop="0" name="status"/>
+    <field labelOnTop="0" name="statuskode"/>
+    <field labelOnTop="0" name="stiktype"/>
+    <field labelOnTop="0" name="systid_fra"/>
+    <field labelOnTop="0" name="systid_til"/>
+    <field labelOnTop="0" name="temakode"/>
+    <field labelOnTop="0" name="temanavn"/>
+    <field labelOnTop="0" name="tilgaengelighed_type"/>
+    <field labelOnTop="0" name="tilgaengelighed_type_kode"/>
+    <field labelOnTop="0" name="udbyder_ladefacilitet"/>
+    <field labelOnTop="0" name="versions_id"/>
   </labelOnTop>
   <reuseLastValue>
     <field reuseLastValue="0" name="adr_id"/>
