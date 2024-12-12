@@ -1,6 +1,8 @@
 # GeoFA-plugin til QGIS 3
 Et plugin til QGIS 3, der gør det let at tilføje lag fra GeoFA til QGIS.
 
+Plugin'et er baseret på <a href="[https://dataforsyningen.dk/](https://github.com/SDFIdk/Qgis-dataforsyningen)" target="_blank">dataforsyningens plugin</a> udviklet af <a href="https://dataforsyningen.dk/" target="_blank">Dataforsyningen, Klimadatastyrelsen</a> and <a href="https://septima.dk/" targer="_blank">Septima</a>
+
 ## Installation: og vejledning
 Pluginet installeres direkte fra QGIS gennem plugin manager.
 
