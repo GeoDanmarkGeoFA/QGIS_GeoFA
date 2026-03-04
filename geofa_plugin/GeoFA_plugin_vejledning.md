@@ -14,13 +14,13 @@ Plugin’et kan godt bruges uden at have adgang til brugernavn og kode, dog har 
     1.	Åbn pluginets indstillinger. Dette kan gøres ved en af følgende måder
         A.	Klik på fanen 'Indstillinger' og tryk på 'Indstillinger...'
         B.	Søg efter GeoFA i søgefeltet i nederste venstre hjørne af QGIS og dobbeltklik på søge resultatet GeoFA (Indstillinger)
-For at ændre brugernavn og adgangskode samt lagopsætning gøres følgende (se næste side):
+For at ændre brugernavn og adgangskode samt lagopsætning gøres følgende:
 
-    3.	Indtast brugernavn og kode i boksen som vist på billedet, hvis der trykkes og holdes på knappen, ”Vis” så kan man se den 
+    2.	Indtast brugernavn og kode i boksen som vist på billedet, hvis der trykkes og holdes på knappen, ”Vis” så kan man se den 
     indtastede adgangskode.
-    4.	Hvis man har indtastet brugernavn og adgangskode, så har man mulighed for at tilgå WFS-T lag, dvs. lag der er mulige at 
+    3.	Hvis man har indtastet brugernavn og adgangskode, så har man mulighed for at tilgå WFS-T lag, dvs. lag der er mulige at 
     editerer. Hvis ikke vil man ikke have mulighed for at tjekke denne boks af.
-    5.	Denne tjekboks kan tjekkes af hvis man ønsker adgang til lagene i testmiljøet.
+    4.	Denne tjekboks kan tjekkes af hvis man ønsker adgang til lagene i testmiljøet.
 
 Hvis man allerede har tilføjet GeoFA lag så vil datakilden blive opdateret afhængig af de indstillinger der ændres. Hvis man ønsker at have forskellige lag med forskellige datakilder, så kan man omdøbe laget i lagpanelet, f.eks. kan ”Skoledistrikter” omdøbes til ”Skoledistrikter (WFS- T)”.
 
